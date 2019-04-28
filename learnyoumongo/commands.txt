@@ -1,0 +1,10 @@
+PATH %PATH%;C:\Program Files\MongoDB\Server\4.0\bin
+mongod --version
+
+npm install mongodb
+mkdir data
+mongod --port 27017 --dbpath=./data
+
+// APi
+https://docs.mongodb.com/stitch/mongodb/mongodb-actions/
+http://mongodb.github.io/node-mongodb-native/3.2/api/
